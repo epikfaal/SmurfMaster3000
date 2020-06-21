@@ -74,7 +74,7 @@ function informPlayerErrorContactingOriginalPlayer(msg){
 }
 
 function checkIfGameTimedOut(game){
-	if(game.code == currentgame.code && game.user == currentgame.user){
+	if(currentgame != null && (game.code == currentgame.code && game.user == currentgame.user)){
 		currentgame = null;
 		game.user.createDM().then( dm => dm.send('Match search timed out'));
 		textchannel.send('match search timed out');
