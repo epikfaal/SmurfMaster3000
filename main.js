@@ -32,7 +32,7 @@ client.on('message', msg => {
    if (msg.content === '!dm' && !(msg.channel instanceof Discord.DMChannel)) {
 	   
 	   console.log(client.channels);
-	   client.channels.fetch('723976201013690441').then( channel =>
+	   client.channels.fetch('724357636912316526').then( channel =>
 	   channel.send('test')).catch( e => console.log('Couldnt find channel: ' + e));
    }
 });
