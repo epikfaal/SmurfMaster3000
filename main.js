@@ -11,7 +11,7 @@ Date.prototype.timeNow = function () {
 }
  
 client.on('ready', () => {
-	 client.channels.fetch('723976201013690441').then( channel =>
+	 client.channels.fetch('724357636912316526').then( channel =>
 	   textchannel = channel);
 	console.log(`Logged in as ${client.user.tag}!`);
 });
