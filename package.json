@@ -1,22 +1,22 @@
 {
 
-  "name": "Example",
+  "name": "SmurfMaster3000",
 
-  "description": "Example",
+  "description": "Some Bot",
 
-  "version": "0.0.0",
+  "version": "0.0.1",
 
-  "main": "bot.js",
+  "main": "main.js",
 
   "scripts": {
 
-    "start": "node bot.js"
+    "start": "node main.js"
 
   },
 
   "dependencies": {
 
-    "discord.js": "11.1.0",
+    "discord.js": "12.2.0",
 
     "request": "2.81.0"
 
